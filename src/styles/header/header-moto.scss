@@ -1,0 +1,16 @@
+.site-header {
+  display: inline-block;
+  color: $white;
+  font-size: 40px;
+  line-height: 58px;
+  font-weight: lighter;
+  background-color: $gray-with-opacity;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+
+  &--first-part {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}

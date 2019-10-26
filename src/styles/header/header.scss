@@ -1,0 +1,25 @@
+@import "main-nav";
+@import "logo";
+@import "header-moto";
+
+.main-header {
+  width: 100%;
+  background: url(../assets/images/header_bg.jpg) no-repeat;
+  background-size: cover;
+
+  &__nav-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 0;
+  }
+
+  &__top {
+    background-color: $gray-with-opacity;
+  }
+
+  &__moto {
+    padding: 200px 0 207px 0;
+    display: flex;
+    flex-direction: column;
+  }
+}

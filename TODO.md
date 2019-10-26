@@ -1,0 +1,16 @@
+## Todo
+- [x] Setup project
+- [x] Header section
+- [ ] Service section
+- [ ] Portfolio section
+- [ ] Default section
+- [ ] Twitter section
+- [ ] John DOE section
+- [ ] Testimonials section
+- [ ] Contact section
+- [ ] Footer section
+- [ ] Main nav scroll to section and change state
+- [ ] Portfolio filter
+- [ ] Form validation
+- [ ] To top btn
+- [ ] image size auto optimization
