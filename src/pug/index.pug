@@ -1,12 +1,12 @@
 extends ./layout/main
+include ./utils/mixins
 
 block variables
     - var title = 'Landing';
-    - var pageClass = 'index-page';
     - var devMode = 'development';
     - var devImagePath = './src/assets/images/';
     - var prodImagePath = './assets/images/';
 
 block content
-    include includes/header
-
+    include includes/header/header
+    include includes/services/services

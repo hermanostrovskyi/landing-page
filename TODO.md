@@ -1,7 +1,7 @@
 ## Todo
 - [x] Setup project
 - [x] Header section
-- [ ] Service section
+- [X] Service section
 - [ ] Portfolio section
 - [ ] Default section
 - [ ] Twitter section

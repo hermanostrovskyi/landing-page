@@ -10,6 +10,11 @@ All notable changes to this project will be documented in this file.
   ### New:
   - Header section (layout, markup and style)
   - TODO list 
+## [1.0.2] - 2019-10-27
+  ### New:
+  - Services section (layout, markup and style)
+  - Fonts were added
+  - Sprites were created  
  
 
  
