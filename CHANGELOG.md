@@ -15,6 +15,10 @@ All notable changes to this project will be documented in this file.
   - Services section (layout, markup and style)
   - Fonts were added
   - Sprites were created  
+## [1.0.3] - 2019-10-28
+  ### New:
+  - Portfolio section (layout, markup and style)
+  - Nav menu(main nav and portfolio nav) was rewritten via mixins
  
 
  

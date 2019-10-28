@@ -2,7 +2,7 @@
 - [x] Setup project
 - [x] Header section
 - [X] Service section
-- [ ] Portfolio section
+- [x] Portfolio section
 - [ ] Default section
 - [ ] Twitter section
 - [ ] John DOE section

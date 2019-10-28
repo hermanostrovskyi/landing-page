@@ -1,32 +1,4 @@
 .main-nav {
-
-  &__list {
-    margin: 0;
-    padding: 0;
-    display: inline-flex;
-    list-style: none;
-  }
-
-  &__list-item {
-    font-size: 14px;
-  }
-
-  &__link {
-    text-transform: uppercase;
-    padding: 5px 13px;
-    cursor: pointer;
-    display: block;
-    font-weight: bold;
-    color: $white;
-
-    &:hover {
-      color: $lightblue;
-    }
-  }
-
-  &__link--active {
-    border: 2px solid $lightblue;
-    color: $lightblue;
-  }
+  @include navigation($white);
 }
 
