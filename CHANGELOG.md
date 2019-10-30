@@ -19,6 +19,8 @@ All notable changes to this project will be documented in this file.
   ### New:
   - Portfolio section (layout, markup and style)
   - Nav menu(main nav and portfolio nav) was rewritten via mixins
- 
+## [1.0.4] - 2019-10-30
+  ### New:
+  - Default section (layout, markup and style)
 
  

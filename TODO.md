@@ -3,7 +3,7 @@
 - [x] Header section
 - [X] Service section
 - [x] Portfolio section
-- [ ] Default section
+- [X] Default section
 - [ ] Twitter section
 - [ ] John DOE section
 - [ ] Testimonials section
