@@ -4,7 +4,7 @@
 - [X] Service section
 - [x] Portfolio section
 - [X] Default section
-- [ ] Twitter section
+- [x] Twitter section
 - [ ] John DOE section
 - [ ] Testimonials section
 - [ ] Contact section
