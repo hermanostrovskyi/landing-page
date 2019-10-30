@@ -1,0 +1,79 @@
+.who {
+  background: url(../assets/images/who_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 71px 0 122px 0;
+
+  &__header {
+    @include section-header($white);
+    margin-bottom: 30px;
+  }
+
+  &__content-container {
+    display: flex;
+  }
+
+  &__text-content {
+    width: 50%;
+    margin-right: 25px;
+  }
+
+  &__text {
+    margin: 0;
+    color: $white;
+    font-size: 14px;
+    margin-bottom: 25px;
+
+    &--last-text {
+      margin-bottom: 0;
+    }
+  }
+
+  &__socials {
+    width: 50%;
+  }
+
+  &__socials-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__social-item {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid $white;
+    margin-right: 15px;
+    background-image: url('../assets/images/spritesheet.png');
+    background-repeat: no-repeat;
+    text-indent: -3000px;
+    cursor: pointer;
+
+    &:hover {
+      border-color: $lightblue;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &--twitter {
+      background-position: 7px -334px;
+    }
+
+    &--google {
+      background-position: 7px -237px;
+    }
+
+    &--dribble {
+      background-position: 7px -141px;
+    }
+
+    &--coffee {
+      background-position: 7px -105px;
+    }
+  }
+
+
+}

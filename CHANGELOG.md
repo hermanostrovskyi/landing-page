@@ -25,5 +25,8 @@ All notable changes to this project will be documented in this file.
 ## [1.0.5] - 2019-10-30
   ### New:
   - Twitter section (layout, markup and style)
+## [1.0.6] - 2019-10-30
+  ### New:
+  - Who section (layout, markup and style)
 
  

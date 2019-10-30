@@ -5,7 +5,8 @@
 - [x] Portfolio section
 - [X] Default section
 - [x] Twitter section
-- [ ] John DOE section
+- [x] John DOE section
+- [ ] Fix sprite list and add blue color 
 - [ ] Testimonials section
 - [ ] Contact section
 - [ ] Footer section
