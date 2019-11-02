@@ -18,9 +18,8 @@ mixin nav-menu(menuClass, listOfMenuCaptions, defaultActive)
 
 
 mixin porfolio-item(imageName)
-    - var pathPrefix ='./src/assets/images/';
     .portfolio__list-item
         .portfolio__item-details
             p.portfolio__item-caption  Lorem ipsum
         .portfolio__image
-            img.portfolio__item-image(src=pathPrefix + imageName)
+            img.portfolio__item-image(src=require("../assets/images/" + imageName))

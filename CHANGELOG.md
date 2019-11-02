@@ -33,6 +33,9 @@ All notable changes to this project will be documented in this file.
   - Page Footer (layout, markup and style)
   - Contacts (layout, markup and style)
   - Testimonials (layout, markup and style)
+## [1.0.8] - 2019-11-03
+  ### Fixed:
+   - Img tags in prod mode and dev mode need different src path 
 
 
  

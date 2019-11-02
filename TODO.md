@@ -16,4 +16,4 @@
 - [ ] To top btn
 - [ ] Testimonials to gallery
 - [ ] image size auto optimization
-- [ ] image src for dev and prod mode autoset
+- [x] image src for dev and prod mode autoset
