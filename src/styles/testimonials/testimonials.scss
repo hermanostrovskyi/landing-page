@@ -1,0 +1,25 @@
+.testimonials {
+  padding: 56px 0 64px 0;
+
+  &__header {
+    @include section-header($grey);
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    color: $grey;
+    font-size: 28px;
+    line-height: 50px;
+    font-weight: 200;
+    margin: 0;
+    margin-bottom: 18px;
+  }
+
+
+  &__author {
+    color: $lightblue;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+  }
+}

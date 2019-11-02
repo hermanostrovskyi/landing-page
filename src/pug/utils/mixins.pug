@@ -4,14 +4,15 @@ mixin service(header, modifierClass)
         h4.services__item-header= header
         p.services__item-description Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.
 
-mixin nav-menu(menuClass, listOfMenuCaptions )
+mixin nav-menu(menuClass, listOfMenuCaptions, defaultActive)
     - var linkClass= menuClass +  '__link'
     - var linkActive = linkClass + '--active'
+    - var firsLink = defaultActive === 'default-active' ? linkClass + ' ' + linkActive : linkClass
     nav(class=menuClass)
         ul(class=menuClass + '__list')
             each menuItem, index in listOfMenuCaptions
                 if index === 0
-                    li(class=menuClass + '__list-item'): a(class=linkClass + ' ' + linkActive)= menuItem
+                    li(class=menuClass + '__list-item'): a(class=firsLink)= menuItem
                 else
                     li(class=menuClass + '__list-item'): a(class=linkClass)= menuItem
 

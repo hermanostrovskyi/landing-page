@@ -7,11 +7,13 @@
 - [x] Twitter section
 - [x] John DOE section
 - [ ] Fix sprite list and add blue color 
-- [ ] Testimonials section
-- [ ] Contact section
-- [ ] Footer section
+- [x] Testimonials section
+- [x] Contact section
+- [x] Footer section
 - [ ] Main nav scroll to section and change state
 - [ ] Portfolio filter
 - [ ] Form validation
 - [ ] To top btn
+- [ ] Testimonials to gallery
 - [ ] image size auto optimization
+- [ ] image src for dev and prod mode autoset

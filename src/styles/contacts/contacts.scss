@@ -1,0 +1,16 @@
+@import 'contacts-form';
+
+.contacts{
+  background: url(../assets/images/contacts_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 56px 0 63px 0;
+
+  &__header {
+    @include section-header($white);
+    margin-bottom: 30px;
+  }
+
+
+}

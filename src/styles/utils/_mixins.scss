@@ -49,3 +49,11 @@
   }
 }
 
+@mixin form-element() {
+  display: block;
+  background-color: transparent;
+  border: 2px solid $white;
+  outline: none;
+  font-size: 16px;
+}
+

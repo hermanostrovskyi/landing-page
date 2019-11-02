@@ -1,0 +1,16 @@
+@import "footer-nav";
+
+.main-footer {
+  background-color: $darkgray;
+  color: $grey;
+  padding: 63px 0;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__copyright {
+    margin: 0;
+  }
+}

@@ -28,5 +28,11 @@ All notable changes to this project will be documented in this file.
 ## [1.0.6] - 2019-10-30
   ### New:
   - Who section (layout, markup and style)
+## [1.0.7] - 2019-11-02
+  ### New:
+  - Page Footer (layout, markup and style)
+  - Contacts (layout, markup and style)
+  - Testimonials (layout, markup and style)
+
 
  
