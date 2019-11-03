@@ -1,4 +1,21 @@
 .main-nav {
   @include navigation($white);
+  display: flex;
+
+  &__toggle {
+    width: 32px;
+    height: 32px;
+    border: 0;
+    background-image: url('../assets/images/spritesheet.png');
+    background-repeat: no-repeat;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-position: -20px -985px;
+    display: none;
+    &:hover {
+      background-position: -20px -1057px;
+    }
+  }
 }
 

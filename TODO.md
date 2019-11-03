@@ -6,10 +6,12 @@
 - [X] Default section
 - [x] Twitter section
 - [x] John DOE section
-- [ ] Fix sprite list and add blue color 
+- [X] Fix sprite list and add blue color 
 - [x] Testimonials section
 - [x] Contact section
 - [x] Footer section
+- [ ] Main nav and gallery burger menu
+- [ ] Responsive design
 - [ ] Main nav scroll to section and change state
 - [ ] Portfolio filter
 - [ ] Form validation

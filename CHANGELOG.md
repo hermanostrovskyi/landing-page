@@ -35,7 +35,12 @@ All notable changes to this project will be documented in this file.
   - Testimonials (layout, markup and style)
 ## [1.0.8] - 2019-11-03
   ### Fixed:
-   - Img tags in prod mode and dev mode need different src path 
+   - Img tags in prod mode and dev mode need different src path
+## [1.0.9] - 2019-11-03
+  ### Fixed:
+   - Spritesheet was generated
+  ### New
+   - Burger menu was added to main-nav and gallery  
 
 
  

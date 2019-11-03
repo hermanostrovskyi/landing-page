@@ -9,12 +9,14 @@ mixin nav-menu(menuClass, listOfMenuCaptions, defaultActive)
     - var linkActive = linkClass + '--active'
     - var firsLink = defaultActive === 'default-active' ? linkClass + ' ' + linkActive : linkClass
     nav(class=menuClass)
+        if defaultActive === 'default-active'
+            button(class=menuClass + '__toggle')
         ul(class=menuClass + '__list')
-            each menuItem, index in listOfMenuCaptions
-                if index === 0
-                    li(class=menuClass + '__list-item'): a(class=firsLink)= menuItem
-                else
-                    li(class=menuClass + '__list-item'): a(class=linkClass)= menuItem
+                each menuItem, index in listOfMenuCaptions
+                    if index === 0
+                        li(class=menuClass + '__list-item'): a(class=firsLink)= menuItem
+                    else
+                        li(class=menuClass + '__list-item'): a(class=linkClass)= menuItem
 
 
 mixin porfolio-item(imageName)

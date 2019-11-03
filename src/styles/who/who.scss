@@ -60,19 +60,31 @@
     }
 
     &--twitter {
-      background-position: 7px -334px;
+      background-position: -10px -1185px;
+      &:hover {
+        background-position: -10px -1247px;
+      }
     }
 
     &--google {
-      background-position: 7px -237px;
+      background-position: -10px -745px;
+      &:hover {
+        background-position: -10px -814px;
+      }
     }
 
     &--dribble {
-      background-position: 7px -141px;
+      background-position: -9px -525px;
+      &:hover {
+        background-position: -9px -592px;
+      }
     }
 
     &--coffee {
-      background-position: 7px -105px;
+      background-position: -10px -396px;
+      &:hover {
+        background-position: -10px -460px;
+      }
     }
   }
 
