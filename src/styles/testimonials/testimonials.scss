@@ -22,4 +22,11 @@
     font-weight: bold;
     font-style: normal;
   }
+
+  @media (min-width: 0) and (max-width: 480px) {
+    &__text {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
 }

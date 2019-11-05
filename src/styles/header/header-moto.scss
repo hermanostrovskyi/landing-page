@@ -13,4 +13,14 @@
     margin: 0 auto;
     margin-bottom: 10px;
   }
+
+
+}
+
+@media (min-width: 0) and (max-width: 480px) {
+  .site-header {
+    line-height: 30px;
+    font-size: 24px;
+  }
+
 }

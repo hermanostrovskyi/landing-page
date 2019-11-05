@@ -89,4 +89,34 @@
   }
 
 
+  @media (min-width: 0) and (max-width: 480px) {
+    &__content-container {
+      flex-wrap: wrap;
+    }
+
+    &__text-content {
+      width: 100%;
+      margin-right: 0;
+
+
+    }
+
+    &__text {
+      margin: 0;
+      color: $white;
+      font-size: 14px;
+      margin-bottom: 25px;
+
+      &--last-text {
+        margin-bottom: 25px;
+      }
+    }
+
+    &__socials {
+      width: 100%;
+    }
+
+  }
+
+
 }

@@ -16,6 +16,17 @@
     height: 2px;
     background-color: $color;
   }
+
+
+  @media (min-width: 0) and (max-width: 480px) {
+    font-size: 28px;
+    text-align: center;
+    border-bottom: 2px solid $color;
+
+    &::after {
+      display: none;
+    }
+  }
 }
 
 @mixin navigation($color) {
@@ -57,3 +68,39 @@
   font-size: 16px;
 }
 
+
+// extra small devices
+@mixin xs {
+  @media (min-width: #{$screen-sm-min} - 1) {
+    @content;
+  }
+}
+
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}

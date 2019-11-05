@@ -19,6 +19,7 @@
 
   &__input {
     @include form-element();
+    box-sizing: border-box;
     width: 82.599%;
     padding: 14px;
     margin-top: 5px;
@@ -44,6 +45,7 @@
     padding: 14px;
     min-height: 175px;
     margin-top: 5px;
+    box-sizing: border-box;
   }
 
   &__submit-button {
@@ -62,4 +64,31 @@
       color: $lightblue;
     }
   }
+  @media (min-width: 0) and (max-width: 480px) {
+    &__group {
+      width: 100%;
+
+      &--name {
+        order: 1;
+      }
+      &--email {
+        order: 2;
+      }
+      &--message {
+        order: 3;
+      }
+      &--button {
+        order: 4;
+      }
+    }
+
+    &__input {
+      width: 100%;
+    }
+
+    &__submit-button {
+      width: 100%;
+    }
+  }
+
 }

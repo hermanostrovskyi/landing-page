@@ -30,6 +30,7 @@
     border: 2px solid $darkgray;
     cursor: pointer;
     user-select: none;
+    text-align: center;
 
     &:hover {
       color: $lightblue;
@@ -54,5 +55,30 @@
       }
     }
 
+  }
+
+  @media (min-width: 0) and (max-width: 480px) {
+    &__container {
+      flex-wrap: wrap;
+    }
+
+    &__info-block {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+    &__player-block {
+      width: 100%;
+    }
+
+    &__text {
+      width: 100%;
+    }
+
+    &__visit-btn {
+      width: 100%;
+      box-sizing: border-box;
+    }
   }
 }

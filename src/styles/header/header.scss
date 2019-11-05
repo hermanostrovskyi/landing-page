@@ -23,4 +23,22 @@
     display: flex;
     flex-direction: column;
   }
+
+  @media (min-width: 0) and (max-width: 480px) {
+    &__nav-section {
+      padding: 42px 20px 44px 20px;
+    }
+
+    &__top {
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    &__moto {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+  }
 }

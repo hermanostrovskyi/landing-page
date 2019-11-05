@@ -41,6 +41,17 @@ All notable changes to this project will be documented in this file.
    - Spritesheet was generated
   ### New
    - Burger menu was added to main-nav and gallery  
+## [1.0.10] - 2019-11-05
+  ### Updated:
+   - Responsive-design:
+        - header
+        - twitter
+        - default
+        - contact
+        - services
+        - footer
+        - testimonials
+        - headder(burger-menu)
 
 
  

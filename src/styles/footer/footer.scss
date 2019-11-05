@@ -13,4 +13,11 @@
   &__copyright {
     margin: 0;
   }
+
+  @media (min-width: 0) and (max-width: 480px) {
+    &__container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
 }

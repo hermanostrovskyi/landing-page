@@ -1,1 +1,4 @@
-export const logger = (value: string): void => console.log();
+
+import {Navigation} from "./navigation";
+
+new Navigation('main-nav');
