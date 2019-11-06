@@ -52,6 +52,10 @@ All notable changes to this project will be documented in this file.
         - footer
         - testimonials
         - headder(burger-menu)
+        
+## [1.0.11] - 2019-11-06
+   ### Updated:
+   - Responsive-design: tablet view
 
 
  

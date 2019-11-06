@@ -52,4 +52,36 @@
     text-align: center;
   }
 
+  @media (min-width: 0) and (max-width: 480px) {
+    &__navigation {
+      flex-wrap: wrap;
+    }
+
+    &__header {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    &__list-item {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    &__navigation {
+      flex-wrap: wrap;
+    }
+
+    &__header {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    &__list-item {
+      width: 50%;
+      max-width: 100%;
+    }
+  }
+
 }

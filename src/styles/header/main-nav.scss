@@ -57,6 +57,32 @@
     }
   }
 
+  @media (min-width: 481px) and (max-width: 768px) {
+    &__toggle {
+      display: block;
+    }
 
+    &__list {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: $darkgray;
+
+      &--active {
+        display: block;
+      }
+    }
+
+    &__link {
+      padding: 20px;
+      text-align: center;
+    }
+
+    &__link--active {
+      border: none;
+    }
+  }
 }
 
