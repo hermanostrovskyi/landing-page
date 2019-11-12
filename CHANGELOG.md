@@ -56,9 +56,10 @@ All notable changes to this project will be documented in this file.
 ## [1.0.11] - 2019-11-06
    ### Updated:
    - Responsive-design: tablet view
-## [1.0.12] - 2019-11-06
+## [1.0.12] - 2019-11-12
    ### Updated:
    - Responsive-design is ready
-
+## [1.0.13] - 2019-11-12
+   ### Add Smooth scroll
 
  

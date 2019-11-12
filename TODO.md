@@ -12,7 +12,7 @@
 - [x] Footer section
 - [X] Main nav and gallery burger menu
 - [X] Responsive design
-- [ ] Main nav scroll to section and change state
+- [X] Main nav scroll to section and change state
 - [ ] Portfolio filter
 - [ ] Form validation
 - [ ] To top btn
