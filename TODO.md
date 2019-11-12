@@ -10,8 +10,8 @@
 - [x] Testimonials section
 - [x] Contact section
 - [x] Footer section
-- [ ] Main nav and gallery burger menu
-- [ ] Responsive design
+- [X] Main nav and gallery burger menu
+- [X] Responsive design
 - [ ] Main nav scroll to section and change state
 - [ ] Portfolio filter
 - [ ] Form validation
