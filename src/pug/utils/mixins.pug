@@ -14,9 +14,9 @@ mixin nav-menu(menuClass, listOfMenuCaptions, defaultActive)
         ul(class=menuClass + '__list')
                 each menuItem, index in listOfMenuCaptions
                     if index === 0
-                        li(class=menuClass + '__list-item'): a(class=firsLink)= menuItem
+                        li(class=menuClass + '__list-item'): a(class=firsLink data-scroll href=`#`+menuItem)= menuItem
                     else
-                        li(class=menuClass + '__list-item'): a(class=linkClass)= menuItem
+                        li(class=menuClass + '__list-item'): a(class=linkClass data-scroll href=`#`+menuItem)= menuItem
 
 
 mixin porfolio-item(imageName)

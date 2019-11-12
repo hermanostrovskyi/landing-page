@@ -48,6 +48,7 @@
     display: block;
     font-weight: bold;
     color: $color;
+    text-decoration: none;
 
     &:hover {
       color: $lightblue;

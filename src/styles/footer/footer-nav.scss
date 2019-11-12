@@ -1,4 +1,6 @@
 .footer-nav {
+
+
   &__list {
     margin: 0;
     padding: 0;
@@ -26,6 +28,8 @@
     cursor: pointer;
     display: block;
     font-weight: bold;
+    color: $grey;
+    text-decoration: none;
 
 
     &:hover {
