@@ -14,8 +14,9 @@
 - [X] Responsive design
 - [X] Main nav scroll to section and change state
 - [ ] Portfolio filter
-- [ ] Form validation
+- [X] Form validation
 - [ ] To top btn
 - [ ] Testimonials to gallery
 - [ ] image size auto optimization
+- [ ] add toasts
 - [x] image src for dev and prod mode autoset

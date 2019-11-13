@@ -61,5 +61,6 @@ All notable changes to this project will be documented in this file.
    - Responsive-design is ready
 ## [1.0.13] - 2019-11-12
    ### Add Smooth scroll
-
+## [1.0.14] - 2019-11-13
+   ### Add Form Validation
  
