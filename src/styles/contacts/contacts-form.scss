@@ -30,7 +30,17 @@
     font-weight: bold;
     font-size: 12px;
     text-transform: uppercase;
+
+    span {
+      display: block;
+      color: red;
+      font-size: 14px;
+      font-weight: 200;
+      text-transform: capitalize;
+    }
   }
+
+
 
   &__text {
     color: $white;
@@ -64,6 +74,12 @@
       color: $lightblue;
     }
   }
+
+  &__submit-button[disabled] {
+    background-color: #cccccc;
+    color: #666666;
+  }
+
   @media (min-width: 0) and (max-width: 480px) {
     &__group {
       width: 100%;
