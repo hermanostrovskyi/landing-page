@@ -1,3 +1,5 @@
+import {Toast} from './toast';
+
 export class FormValidator {
     form: HTMLFormElement | null;
     submitBtn: HTMLButtonElement | null;
@@ -78,6 +80,12 @@ export class FormValidator {
             this.isEmailValid() ? this.deleteErrorMessageSpan(emailErrorSpan) : this.emailInput.parentElement.insertBefore(emailErrorSpan, this.emailInput);
             this.isMessageValue() ? this.deleteErrorMessageSpan(messageErrorSpan) : this.messageTextarea.parentElement.insertBefore(messageErrorSpan, this.messageTextarea);
             this.toggleSubmitButtonActivation();
+            if (this.isFormValid()) {
+                new Toast('Message was successfully sent', 'success', 'Success');
+                this.form.reset();
+            } else {
+                new Toast('Message was not sent. Form is invalid', 'error', 'Error');
+            }
         });
     }
 
@@ -105,7 +113,7 @@ export class FormValidator {
     }
 
     createOrGetErrorSpan(type: string, errorText: string) {
-       return this.isErrorSpan(type) ? this.getErrorSpan(type) : this.createErrorMessage(errorText, type);
+        return this.isErrorSpan(type) ? this.getErrorSpan(type) : this.createErrorMessage(errorText, type);
     }
 
 }

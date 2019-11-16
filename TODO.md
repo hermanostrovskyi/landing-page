@@ -15,8 +15,8 @@
 - [X] Main nav scroll to section and change state
 - [ ] Portfolio filter
 - [X] Form validation
-- [ ] To top btn
+- [X] To top btn
 - [ ] Testimonials to gallery
-- [ ] image size auto optimization
-- [ ] add toasts
+- [X] image compress
+- [X] add toasts
 - [x] image src for dev and prod mode autoset
