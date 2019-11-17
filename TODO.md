@@ -13,7 +13,7 @@
 - [X] Main nav and gallery burger menu
 - [X] Responsive design
 - [X] Main nav scroll to section and change state
-- [ ] Portfolio filter
+- [X] Portfolio filter
 - [X] Form validation
 - [X] To top btn
 - [X] Testimonials to gallery

@@ -16,21 +16,26 @@
 
   &__list {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
   }
 
   &__list-item {
     margin-bottom: 25px;
-    width: 25%;
+    width: 23%;
+    margin-right: 2%;
     max-width: 270px;
     position: relative;
+    display: none;
 
     &:hover {
       .portfolio__item-details {
         display: block;
       }
     }
+  }
+
+  &__list-item--active {
+    display: block;
   }
 
   &__item-image {
@@ -79,7 +84,7 @@
     }
 
     &__list-item {
-      width: 50%;
+      width: 48%;
       max-width: 100%;
     }
   }
