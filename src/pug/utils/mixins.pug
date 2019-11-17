@@ -19,8 +19,8 @@ mixin nav-menu(menuClass, listOfMenuCaptions, defaultActive)
                         li(class=menuClass + '__list-item'): a(class=linkClass data-scroll href=`#`+menuItem)= menuItem
 
 
-mixin porfolio-item(imageName)
-    .portfolio__list-item
+mixin porfolio-item(imageName, type)
+    .portfolio__list-item(data-type=type)
         .portfolio__item-details
             p.portfolio__item-caption  Lorem ipsum
         .portfolio__image

@@ -63,4 +63,10 @@ All notable changes to this project will be documented in this file.
    ### Add Smooth scroll
 ## [1.0.14] - 2019-11-13
    ### Add Form Validation
- 
+## [1.1.0] - 2019-11-17
+   ### Add
+   - portfolio filter
+   - to top btn
+   - smooth scroll
+   - Image compression
+   - toast by form validation
