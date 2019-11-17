@@ -16,7 +16,7 @@
 - [ ] Portfolio filter
 - [X] Form validation
 - [X] To top btn
-- [ ] Testimonials to gallery
+- [X] Testimonials to gallery
 - [X] image compress
 - [X] add toasts
 - [x] image src for dev and prod mode autoset
