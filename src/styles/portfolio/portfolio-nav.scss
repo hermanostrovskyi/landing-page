@@ -1,0 +1,73 @@
+.portfolio-nav {
+  display: flex;
+  @include navigation($grey);
+
+  &__toggle {
+    width: 32px;
+    height: 32px;
+    border: 0;
+    background-image: url('../assets/images/spritesheet.png');
+    background-repeat: no-repeat;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-position: -20px -1129px;
+    display: none;
+
+    &:hover {
+      background-position: -20px -1057px;
+    }
+
+    &--active {
+      background-position: -20px -337px;
+
+      &:hover {
+        background-position: -20px -265px;
+      }
+    }
+  }
+
+
+  @media (min-width: 0) and (max-width: 480px) {
+    width: 100%;
+
+    &__list {
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+
+
+    &__link {
+      padding: 5px;
+      border: 1px solid $grey;
+      border-radius: 5px;
+      font-size: 12px;
+      margin-bottom: 5px;
+      margin-right: 5px;
+      user-select: none;
+    }
+
+
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    width: 100%;
+
+    &__list {
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    &__link {
+      padding: 5px;
+      border: 1px solid $grey;
+      border-radius: 5px;
+      font-size: 12px;
+      margin-bottom: 5px;
+      margin-right: 5px;
+      user-select: none;
+    }
+  }
+}
+

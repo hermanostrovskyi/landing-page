@@ -1,16 +1,22 @@
 ## Todo
 - [x] Setup project
 - [x] Header section
-- [ ] Service section
-- [ ] Portfolio section
-- [ ] Default section
-- [ ] Twitter section
-- [ ] John DOE section
-- [ ] Testimonials section
-- [ ] Contact section
-- [ ] Footer section
-- [ ] Main nav scroll to section and change state
-- [ ] Portfolio filter
-- [ ] Form validation
-- [ ] To top btn
-- [ ] image size auto optimization
+- [X] Service section
+- [x] Portfolio section
+- [X] Default section
+- [x] Twitter section
+- [x] John DOE section
+- [X] Fix sprite list and add blue color 
+- [x] Testimonials section
+- [x] Contact section
+- [x] Footer section
+- [X] Main nav and gallery burger menu
+- [X] Responsive design
+- [X] Main nav scroll to section and change state
+- [X] Portfolio filter
+- [X] Form validation
+- [X] To top btn
+- [X] Testimonials to gallery
+- [X] image compress
+- [X] add toasts
+- [x] image src for dev and prod mode autoset

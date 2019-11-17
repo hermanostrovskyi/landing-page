@@ -1,0 +1,31 @@
+.toast {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+  color: $white;
+  z-index: 1000000;
+
+  &--warn {
+    background-color: #ffba01;
+  }
+
+  &--success {
+    background-color: #34A835;
+  }
+
+  &--error {
+    background-color: #e91224;
+  }
+
+  &__header {
+    margin: 0;
+  }
+
+  &__message {
+    margin: 0;
+  }
+
+}

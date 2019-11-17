@@ -1,32 +1,88 @@
 .main-nav {
+  @include navigation($white);
+  display: flex;
 
-  &__list {
-    margin: 0;
-    padding: 0;
-    display: inline-flex;
-    list-style: none;
-  }
 
-  &__list-item {
-    font-size: 12px;
-  }
-
-  &__link {
-    text-transform: uppercase;
-    padding: 5px 14px;
+  &__toggle {
+    width: 32px;
+    height: 32px;
+    border: 0;
+    background-image: url('../assets/images/spritesheet.png');
+    background-repeat: no-repeat;
+    outline: none;
+    background-color: transparent;
     cursor: pointer;
-    display: block;
-    font-weight: bold;
-    color: $white;
+    background-position: -20px -985px;
+    display: none;
 
     &:hover {
-      color: $lightblue;
+      background-position: -20px -1057px;
+    }
+
+    &--active {
+      background-position: -20px -193px;
+
+      &:hover {
+        background-position: -20px -265px;
+      }
     }
   }
 
-  &__link--active {
-    border: 2px solid $lightblue;
-    color: $lightblue;
+
+  @media (min-width: 0) and (max-width: 480px) {
+    &__toggle {
+      display: block;
+    }
+
+    &__list {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: $darkgray;
+
+      &--active {
+        display: block;
+      }
+    }
+
+    &__link {
+      padding: 20px;
+      text-align: center;
+    }
+
+    &__link--active {
+      border: none;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    &__toggle {
+      display: block;
+    }
+
+    &__list {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: $darkgray;
+
+      &--active {
+        display: block;
+      }
+    }
+
+    &__link {
+      padding: 20px;
+      text-align: center;
+    }
+
+    &__link--active {
+      border: none;
+    }
   }
 }
 

@@ -1,0 +1,110 @@
+.contacts-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+
+    &--message {
+      width: 100%;
+    }
+  }
+
+
+
+  &__input {
+    @include form-element();
+    box-sizing: border-box;
+    width: 82.599%;
+    padding: 14px;
+    margin-top: 5px;
+  }
+
+  &__label {
+    color: $white;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+
+    span {
+      display: block;
+      color: red;
+      font-size: 14px;
+      font-weight: 200;
+      text-transform: capitalize;
+    }
+  }
+
+
+
+  &__text {
+    color: $white;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0;
+  }
+
+  &__textarea {
+    @include form-element();
+    width: 100%;
+    padding: 14px;
+    min-height: 175px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+
+  &__submit-button {
+    background-color: $lightblue;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    width: 63.1914%;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 16px 0;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $white;
+      color: $lightblue;
+    }
+  }
+
+  &__submit-button[disabled] {
+    background-color: #cccccc;
+    color: #666666;
+  }
+
+  @media (min-width: 0) and (max-width: 480px) {
+    &__group {
+      width: 100%;
+
+      &--name {
+        order: 1;
+      }
+      &--email {
+        order: 2;
+      }
+      &--message {
+        order: 3;
+      }
+      &--button {
+        order: 4;
+      }
+    }
+
+    &__input {
+      width: 100%;
+    }
+
+    &__submit-button {
+      width: 100%;
+    }
+  }
+
+}

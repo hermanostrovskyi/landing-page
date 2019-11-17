@@ -49,5 +49,8 @@
     "webpack-dev-server": "^3.8.2",
     "webpack-merge": "^4.2.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "plyr": "^3.5.6",
+    "smooth-scroll": "^16.1.0"
+  }
 }

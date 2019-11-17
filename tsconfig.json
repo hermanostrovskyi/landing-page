@@ -5,6 +5,7 @@
     "strict": true,
     "noImplicitAny": true,
     "isolatedModules": true,
+    "strictNullChecks": false,
     "module": "es6",
     "target": "esnext",
     "include": [

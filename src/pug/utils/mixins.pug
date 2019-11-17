@@ -1,0 +1,27 @@
+mixin service(header, modifierClass)
+    .services__item
+        .services__item-icon(class=modifierClass)
+        h4.services__item-header= header
+        p.services__item-description Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.
+
+mixin nav-menu(menuClass, listOfMenuCaptions, defaultActive)
+    - var linkClass= menuClass +  '__link'
+    - var linkActive = linkClass + '--active'
+    - var firsLink = defaultActive === 'default-active' ? linkClass + ' ' + linkActive : linkClass
+    nav(class=menuClass)
+        if defaultActive === 'default-active'
+            button(class=menuClass + '__toggle')
+        ul(class=menuClass + '__list')
+                each menuItem, index in listOfMenuCaptions
+                    if index === 0
+                        li(class=menuClass + '__list-item'): a(class=firsLink data-scroll href=`#`+menuItem)= menuItem
+                    else
+                        li(class=menuClass + '__list-item'): a(class=linkClass data-scroll href=`#`+menuItem)= menuItem
+
+
+mixin porfolio-item(imageName, type)
+    .portfolio__list-item(data-type=type)
+        .portfolio__item-details
+            p.portfolio__item-caption  Lorem ipsum
+        .portfolio__image
+            img.portfolio__item-image(src=require("../assets/images/" + imageName))

@@ -1,0 +1,84 @@
+.default {
+  background-color: $grey;
+  padding: 65px 0;
+
+  &__header {
+    @include section-header($white);
+    margin-bottom: 33px;
+  }
+
+  &__text {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: $white;
+    width: 80.296%;
+    margin-bottom: 30px;
+  }
+
+  &__container {
+    display: flex;
+  }
+
+  &__visit-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: $darkgray;
+    padding: 12px 30px;
+    border: 2px solid $darkgray;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+
+    &:hover {
+      color: $lightblue;
+      border-color: $lightblue;
+    }
+  }
+
+  &__info-block {
+    width: 50%;
+    margin-right: 25px;
+  }
+
+  &__player-block {
+    width: 50%;
+
+    .plyr__video-embed {
+      height: 100%;
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    }
+
+  }
+
+  @media (min-width: 0) and (max-width: 480px) {
+    &__container {
+      flex-wrap: wrap;
+    }
+
+    &__info-block {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+    &__player-block {
+      width: 100%;
+    }
+
+    &__text {
+      width: 100%;
+    }
+
+    &__visit-btn {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+}
